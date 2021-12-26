@@ -1,0 +1,121 @@
+
+
+
+
+
+
+
+
+-- 这个方法有用 
+https://blog.csdn.net/weixin_41010198/article/details/119698015
+token 
+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
+
+
+
+https://websites.ipaddress.com/
+尝试 打开443
+
+
+
+https://blog.csdn.net/qq_29493173/article/details/113092656
+https://blog.csdn.net/qq_29493173/article/details/113092656
+
+http://git-scm.com/docs
+
+219.76.4.4 github-cloud.s3.amazonaws.com
+
+
+219.76.4.4 github-cloud.s3.amazonaws.com
+192.30.253.112 github.com
+151.101.185.194 github.global.ssl.fastly.net
+
+---------------------------------------------------------------------------------
+ssh-mydemo
+
+--生成ssh key   https://blog.csdn.net/hhhccckkk/article/details/50737077
+ssh-keygen -t rsa -C "aaaaaaaaaaaaa@qq.com"
+
+
+-- 解除ssl验证
+ git config --global http.sslVerify "false"
+
+--把一个已有的本地仓库与之关联
+git remote add origin git@github.com:michaelliao/learngit.git
+
+--push 上传
+git push -u origin master
+
+--clone
+git clone git@github.com:michaelliao/gitskills.git
+
+git log - 查看历史提交记录
+
+git blame <file> - 以列表形式查看指定文件的历史修改记录。
+
+将远程主机 origin 的 master 分支拉取过来，与本地的 brantest 分支合并。
+git pull origin master:brantest
+
+
+
+
+
+mkdir FileName
+cd FileName
+pwd
+
+git init 
+
+
+$ git add readme.txt
+$ git commit -m "append GPL"
+git log
+$ git log --pretty=oneline
+
+--修改状态
+git status
+
+--操作日志
+git reflog
+
+--git状态
+git status
+
+--恢复到上个版本
+git reset --hard head^
+
+git reset --hard head~100
+
+global 
+
+--比较
+git diff FileName
+
+--撤销修改
+git reset head FileName
+git checkout -- FileName
+
+
+cat xxx.txt 
+
+-- c查看远程地址
+git remote -v 
+
+
+-----------------------------------------------git 配置相关
+-- 所有配置属性 
+git config --list 
+
+-------------- git更新密钥 start
+
+
+-------------- git更新密钥 end
+
+
+------------------linux命令
+
+目录下隐藏的文件和文件夹
+ls -lat
+
+上一层目录
+cd ..
